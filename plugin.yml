@@ -1,0 +1,8 @@
+name: DestinyCraft
+main: me.milo526.DestinyCraft.DestinyCraft
+version: 0.5
+description: >
+			DestinyCraft Plugin
+commands:
+	website:
+		description: Get our website!
