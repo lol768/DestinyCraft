@@ -1,0 +1,22 @@
+[Ernstig] null
+[Informatie] org.bukkit.command.CommandException: Unhandled exception executing command 'dc' in plugin DestinyCraft v0.5
+[Informatie] at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46)
+[Informatie] at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:191)
+[Informatie] at org.bukkit.craftbukkit.v1_6_R2.CraftServer.dispatchCommand(CraftServer.java:523)
+[Informatie] at net.minecraft.server.v1_6_R2.PlayerConnection.handleCommand(PlayerConnection.java:954)
+[Informatie] at net.minecraft.server.v1_6_R2.PlayerConnection.chat(PlayerConnection.java:872)
+[Informatie] at net.minecraft.server.v1_6_R2.PlayerConnection.a(PlayerConnection.java:829)
+[Informatie] at net.minecraft.server.v1_6_R2.Packet3Chat.handle(SourceFile:49)
+[Informatie] at net.minecraft.server.v1_6_R2.NetworkManager.b(NetworkManager.java:296)
+[Informatie] at net.minecraft.server.v1_6_R2.PlayerConnection.e(PlayerConnection.java:116)
+[Informatie] at net.minecraft.server.v1_6_R2.ServerConnection.b(SourceFile:37)
+[Informatie] at net.minecraft.server.v1_6_R2.DedicatedServerConnection.b(SourceFile:30)
+[Informatie] at net.minecraft.server.v1_6_R2.MinecraftServer.t(MinecraftServer.java:590)
+[Informatie] at net.minecraft.server.v1_6_R2.DedicatedServer.t(DedicatedServer.java:226)
+[Informatie] at net.minecraft.server.v1_6_R2.MinecraftServer.s(MinecraftServer.java:486)
+[Informatie] at net.minecraft.server.v1_6_R2.MinecraftServer.run(MinecraftServer.java:419)
+[Informatie] at net.minecraft.server.v1_6_R2.ThreadServerApplication.run(SourceFile:582)
+[Informatie] Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+[Informatie] at me.milo526.DestinyCraft.DestinyCraft.onCommand(DestinyCraft.java:44)
+[Informatie] at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44)
+[Informatie] ... 15 more
